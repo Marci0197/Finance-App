@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Finance App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/picture/favicon.png" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="card">
+        <h1 id="h1">0 €</h1>
+
+        <div class="controls">
+            <input id="amount" type="number" step="0.01" placeholder="Betrag eingeben">
+            <input id="reason" type="text" placeholder="Kommentar eingeben">
+            <button id="addBtn">Buchen</button>
+        </div>
+
+        <div id="errorMsg" class="error"></div>
+
+        <ul id="entries"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
