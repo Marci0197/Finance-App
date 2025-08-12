@@ -98,3 +98,63 @@ li{
     margin-top:4px;
     display:none
 }
+
+.controls {
+    display: flex;
+    gap: 8px;
+}
+
+/* --- Responsive Anpassungen für Handys --- */
+@media (max-width: 480px) {
+    body {
+        margin: 12px;
+    }
+    
+    .card {
+        padding: 12px;
+        margin: 0 10px;
+        max-width: 100%;
+    }
+    
+    h1 {
+        font-size: 32px;
+    }
+    
+    .controls {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    input[type=number], input[type=text], button {
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    button {
+        padding: 12px 0;
+    }
+    
+    li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+        font-size: 16px;
+    }
+    
+    .amount {
+        min-width: auto;
+        font-size: 18px;
+    }
+    
+    .time {
+        font-size: 14px;
+    }
+    
+    .deleteBtn {
+        align-self: stretch;
+        width: 100%;
+        padding: 10px 0;
+        font-size: 16px;
+        border-radius: 8px;
+    }
+}
