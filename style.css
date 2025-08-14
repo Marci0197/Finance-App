@@ -1,65 +1,70 @@
 body{
-    font-family:system-ui, -apple-system, Segoe UI,Roboto, "Helvetica Neue",Arial;
-    margin:24px;
+    font-family: sans-serif;
+    margin: 24px;
     background-color: #e3ffff;
 }
 
 .card{
-    max-width:600px;
-    margin:0 auto;
-    padding:18px;
-    border-radius:12px;
-    box-shadow:0 6px 18px rgba(0,0,0,0.06)
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    background-color: #ffffff;
 }
 
 h1{
-    font-size:40px;
-    margin:0 0 12px;
+    font-size: 40px;
+    margin: 0 0 12px;
     text-align: center;
 }
 
 .controls{
-    display:flex;
-    gap:8px;
-    margin:12px 0
+    display: flex;
+    gap: 8px;
+    margin: auto;
+    margin-right: 50px;
+    margin-left: 20px;
 }
 
-input[type=number], input[type=text]{
-    flex:1;
-    padding:10px;
-    border:1px solid #ddd;
-    border-radius:8px;
-    font-size:16px
+input[type= number], input[type= text]{
+    flex: 1;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
 }
 
 button{
-    padding:10px 14px;
-    border-radius:8px;
-    border:none;
-    cursor:pointer;
-    background:#0366d6;
-    color:white
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #0366d6;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
 }
 
 ul{
-    list-style:none;
-    padding:0;
-    margin:8px 0
+    list-style: none;
+    padding: 0;
+    margin: 8px 0;
 }
 
 li{
-    display:flex;
-    gap:12px;
-    align-items:center;
-    padding:10px;
-    border-radius:8px;
-    margin-bottom:8px;
-    border:1px solid #f0f0f0
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #f0f0f0;
 }
 
 .amount{
-    min-width:110px;
-    font-weight:700
+    min-width: 110px;
+    font-weight: 700;
 }
 
 .amount.positive{
@@ -97,11 +102,6 @@ li{
     font-size:14px;
     margin-top:4px;
     display:none
-}
-
-.controls {
-    display: flex;
-    gap: 8px;
 }
 
 /* --- Responsive Anpassungen für Handys --- */
