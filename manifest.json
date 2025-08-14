@@ -1,25 +1,25 @@
 {
-    "theme_color":"#000000",
-    "background_color":"#2EC6FE",
+    "theme_color": "#0f1724",
+    "background_color": "#2EC6FE",
     "icons":[
         {
-            "purpose":"maskable",
-            "sizes":"512x512",
-            "src":"icon512_maskable.png",
-            "type":"image/png"
+            "purpose": "maskable",
+            "sizes": "512x512",
+            "src": "icon512_maskable.png",
+            "type": "image/png"
         },
         {
-            "purpose":"any",
-            "sizes":"512x512",
-            "src":"icon512_rounded.png",
-            "type":"image/png"
+            "purpose": "any",
+            "sizes": "512x512",
+            "src": "icon512_rounded.png",
+            "type": "image/png"
         }
     ],
-    "orientation":"portrait",
-    "display":"minimal-ui",
-    "dir":"auto",
-    "lang":"de-DE",
-    "name":"Finance App",
-    "short_name":"Finance",
-    "description":"Das ist eine Finance App."
+    "orientation": "portrait",
+    "display": "minimal-ui",
+    "dir": "auto",
+    "lang": "de-DE",
+    "name": "Finance App",
+    "short_name": "Finance",
+    "description": "Das ist eine Finance App."
 }
